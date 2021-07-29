@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box
+}
+body{
+    display: flex; 
+    flex-flow: column;
+    align-items: stretch;
+    margin: 0;
+    font-family: "Montserrat",sans-serif
+}
+.header{
+    display: flex;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0 ;
+    justify-content: space-between;
+
+ 
+    padding: 10px;
+  
+}
+.top-barre{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+.barre-link{
+    display: flex;
+    flex-flow: row;
+    color: #9F9F9F;
+    flex-grow: 1;
+    align-content: center;
+    text-decoration: none;
+}
+.barre-link:hover{
+    color:#000000;
+
+}
+.banner{
+    background-image:url(img/image.png)  ;
+    height: 336px;
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 10px;
+    width: 35%;
+    
+    margin: 7px;
+    
+}
+.social_media{
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+    padding: 5px;
+    margin: 7px;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    justify-content: space-between;
+
+}
+.contenu{
+    display: flex;
+    flex-flow: column;
+    background: #f7f4f4;
+}
+.objet{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start ;
+    height: 20rem;
+    margin: 10px 10px 10px 259px;
+    
+    
+}
+
+.paragraph{
+    align-self: center;
+    max-width: 606px;
+}
+
+.lien{
+    display: flex;
+    text-decoration: none;
+    height: 1em;
+    margin-left: 10px;
+    
+}
+.paf{
+    display: flex;
+    flex-flow: column;
+}
+.paf > * ~ * {
+    margin: 30px 10px 
+}
+.side-barre{
+    background: #f3eded;
+    max-width: 378px;
+    padding: 20px
+
+}
+hr{
+    margin: 20px
+}
+.categories{
+    padding: 10px
+}
+.alpha{
+    display: flex;
+    flex-flow: column;
+
+}
+.tag{
+    padding: 10px;
+    color: #9F9F9F;
+    text-decoration: none;
+}

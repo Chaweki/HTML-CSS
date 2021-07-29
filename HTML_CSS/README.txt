@@ -1,0 +1,1 @@
+folder used to practice my HTML/CSS skill by implimenting figma templates
