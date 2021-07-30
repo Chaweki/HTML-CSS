@@ -1,0 +1,218 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+@font-face {
+  font-family: MonumentExtended;
+  src: url("fonts/MonumentExtended-Regular.woff2") format("woff2"), url("fonts/MonumentExtended-Regular.woff") format("woff"), url("fonts/MonumentExtended-Regular.ttf") format("ttf"), url("fonts/MonumentExtended-Regular.eot") format("eot"), url("fonts/MonumentExtended-Regular.otf") format("otf");
+  font-weight: 400;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Antonio", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background: #DEDEDE;
+}
+
+a {
+  font-family: "MonumentExtended", "Antonio", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: "Monument Extended", fantasy;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 116px 1fr;
+  row-gap: 0px;
+  grid-template-areas: "head" "main";
+}
+
+.header {
+  grid-area: head;
+  height: 116px;
+  width: 100%;
+}
+
+.main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 640px;
+  grid-template-areas: "article aside";
+}
+
+.article {
+  grid-area: article;
+  display: flex;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.header-link, .header-img {
+  display: flex;
+  width: 522px;
+  height: auto;
+  border: 1px solid black;
+  border-right: 0px;
+  border-top: 0px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header-img {
+  width: 116px;
+  height: 100%;
+}
+.header-icone {
+  padding: 2px;
+}
+.header-apple {
+  border-left: 0px;
+}
+
+.article-discreption {
+  width: 521px;
+}
+.article-par {
+  width: 380px;
+  height: 80px;
+  margin: 40px;
+  margin-left: 115px;
+}
+.article h1 {
+  z-index: 1;
+  letter-spacing: 4px;
+  transform: translate(-60px, 675px);
+}
+.article-product {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+}
+.article-theme {
+  display: flex;
+  align-items: flex-start;
+  height: 500px;
+  width: 400px;
+  transform: translate(-120px, 0px);
+}
+.article-color {
+  margin-left: 52px;
+  margin-top: 68px;
+}
+.article-product-3 {
+  border: 1px solid #000000;
+  transform: translate(-31px, -89px);
+}
+.article-img-3 {
+  transform: translate(-38px, -26px);
+}
+
+.aside-buy {
+  background: #B8B6B6;
+  display: flex;
+}
+.aside-discreption {
+  height: 80px;
+  width: 380px;
+  margin: 49px 60px;
+  color: #ffffff;
+}
+.aside-btn {
+  margin-top: 40px;
+  padding: 45px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
