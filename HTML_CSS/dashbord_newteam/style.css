@@ -1,0 +1,359 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 14;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+table {
+  width: 100%;
+  position: relative;
+  bottom: 60px;
+}
+table .members {
+  padding-bottom: 25px;
+  font-size: 27px;
+  text-align: left;
+}
+table td {
+  padding: 30px;
+}
+table tr {
+  border-bottom: 1px solid #d8d8d8;
+  font-weight: bold;
+}
+table tbody tr:last-child {
+  border: none;
+}
+table .position, table .country {
+  color: #477BA1;
+  font-weight: normal;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 59px;
+  border-bottom: 1px solid #D8D8D8;
+  padding: 40px;
+}
+
+main {
+  max-width: 1270px;
+  width: 100%;
+  padding: 30px 0px 30px 80px;
+}
+
+.form {
+  max-width: 1270px;
+}
+
+.head-list {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.head-dashboard::before {
+  content: url("img/Navigation/Navigation/metrics.png");
+  margin: 10px;
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
+.head-websites::before {
+  content: url("img/Navigation/Navigation/Shape.png");
+  margin: 10px;
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
+.head-templates::before {
+  content: url("img/Navigation/Navigation/i-edit.png");
+  margin: 10px;
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
+.head-help::before {
+  content: url("img/Navigation/Navigation/question.png");
+  margin: 10px;
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
+.head-profil {
+  padding-right: 30px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.head-profil::before {
+  content: url("img/Navigation/Navigation/Pic.png");
+  margin: 10px;
+  position: relative;
+  top: 5px;
+  left: -2px;
+  border-radius: 50%;
+}
+.head-profil::after {
+  content: url("img/Navigation/Navigation/Path.png");
+  margin: 10px;
+  position: relative;
+  top: -2px;
+  left: 8px;
+}
+
+.path-home, .path-websites {
+  color: #5C799A;
+}
+.path-websites::before {
+  content: url("img/path1.png");
+  margin: 10px;
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
+.path-new {
+  font-weight: bold;
+}
+.path-new::before {
+  content: url("img/path1.png");
+  margin: 10px;
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
+
+.form-title {
+  font-size: 37px;
+  line-height: 44px;
+  font-weight: 700;
+  margin: 54px auto 20px auto;
+}
+.form-title::before {
+  content: url("img/User.png");
+  margin: 10px;
+  position: relative;
+  top: 6px;
+  left: -9px;
+  margin-right: 10px;
+}
+.form-field {
+  border: none;
+  display: flex;
+  height: 450px;
+  flex-flow: column wrap;
+  position: relative;
+  right: 25px;
+}
+.form div {
+  margin: 20px;
+  display: flex;
+  flex-flow: column;
+}
+.form label {
+  padding-bottom: 20px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.form input, .form select {
+  padding: 10px;
+  border: 2px solid #E9EDF3;
+  border-radius: 6px;
+  width: 603px;
+  height: 44px;
+}
+
+table .members::after {
+  content: "3";
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-radius: 60%;
+  background: linear-gradient(135deg, #3FABFF 0%, #006BFF 100%);
+  position: relative;
+  left: 11px;
+}
+table .admin::after {
+  content: "Admin";
+  font-weight: 700;
+  font-size: 11px;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #3FABFF 0%, #006BFF 100%);
+  position: relative;
+  left: 11px;
+}
+table .name {
+  max-width: 160px;
+  padding-right: 5px;
+}
+table .position {
+  padding-left: 0px;
+}
+table .country {
+  padding: 10px 120px;
+}
+table .country::before {
+  content: url("img/usa.png");
+  margin: 10px;
+  position: relative;
+  top: 6px;
+  left: -9px;
+  margin-right: 10px;
+}
+table .status::before {
+  content: url("img/group.png");
+  margin: 10px;
+  position: relative;
+  top: 6px;
+  left: -9px;
+  margin-right: 10px;
+}
+table .delete::before {
+  content: url("img/f-delete.png");
+  margin: 10px;
+  position: relative;
+  top: 6px;
+  left: -9px;
+  margin-right: 10px;
+}
+
+.btn-add {
+  height: 39px;
+  width: 92px;
+  border: 0;
+  border-radius: 10%;
+  background: #6ED74D;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  left: 529px;
+  top: 20px;
+}
+.btn-add span {
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+}
+.btn-add::before {
+  content: "+";
+  font-size: 40px;
+  position: relative;
+  right: 10px;
+}
+.btn-save {
+  height: 39px;
+  width: 92px;
+  border: 0;
+  border-radius: 10%;
+  background: #3FABFF;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  left: 1146px;
+  top: -30px;
+}
+
+.footer {
+  height: 42px;
+  padding: 10px;
+  border-top: 1px solid #D8D8D8;
+}
+.footer-contact {
+  color: #1782FF;
+}
+.footer-qst {
+  text-align: center;
+  color: #477BA1;
+}
+
+/*# sourceMappingURL=style.css.map */

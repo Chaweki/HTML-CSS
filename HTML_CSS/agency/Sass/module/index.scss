@@ -1,0 +1,40 @@
+.index{
+    &-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between ;
+    align-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    &-navbarre{
+        display: flex;
+        width: 60%;
+        padding-left: 10px;
+        
+        justify-content: flex-start ;
+        &-link{
+            padding-left: 40px;
+            color: #ffffff
+        }
+
+    }
+    
+}
+
+
+&-content{
+    width: 60%;
+    margin: 70px 0;
+    &-title{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    &-paragraph{
+        font-size: 29px;
+        font-weight: 400;        
+    }
+}
+}
+
+

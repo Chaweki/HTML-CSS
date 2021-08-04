@@ -1,0 +1,8 @@
+@mixin insert ($path,$top:5px,$left:-2px){
+    content: url($path);
+    margin: 10px;
+    position: relative;
+    top: $top;
+    left: $left
+    
+}

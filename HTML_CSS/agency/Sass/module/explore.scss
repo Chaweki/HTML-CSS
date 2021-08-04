@@ -1,0 +1,33 @@
+.explore{
+    margin: 0 50px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    &-h2{
+        @extend .insperation-h2;
+        padding-left: 0;
+    }
+    &-text{
+       width: 45%;
+       
+ 
+    }
+    &-p1{
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+     &-p2{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    &-type{
+        width: 55%;
+       padding-top: 145px;
+       
+      
+       &-p{
+            font-size: 20px;
+            font-weight: 600;
+       }
+    }
+}

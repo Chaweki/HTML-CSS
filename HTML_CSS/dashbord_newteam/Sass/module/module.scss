@@ -1,0 +1,206 @@
+@import '../base/libs.scss';
+.head{
+
+   
+
+   &-list{
+       display: flex;
+       width: 500px;
+       justify-content: space-around;
+       margin-left: 20px;
+
+   } 
+   &-dashboard::before{
+       @include insert('img/Navigation/Navigation/metrics.png');
+        
+
+   }
+   &-websites::before{
+       @include insert('img/Navigation/Navigation/Shape.png');
+      
+
+        
+   }
+   &-templates::before{
+       @include insert('img/Navigation/Navigation/i-edit.png');
+
+   }
+   &-help::before{
+       @include insert('img/Navigation/Navigation/question.png');
+   }
+   &-profil{
+       padding-right: 30px;
+       text-align: start;
+       display: flex;
+       align-items: center
+   }
+   &-profil::before{
+       @include insert('img/Navigation/Navigation/Pic.png');
+        border-radius: 50%;
+
+   }
+   &-profil::after{
+       @include insert('img/Navigation/Navigation/Path.png',$top:-2px,$left:8px);
+
+       
+   }
+
+}
+.path{
+   
+    &-home,&-websites{
+        color: #5C799A;
+    }
+    &-websites::before{
+        @include insert('img/path1.png')
+    }
+    &-new{
+        font-weight: bold;
+    }
+    &-new::before{
+        @include insert('img/path1.png')
+    }
+}
+.form{
+    &-title{
+        font-size: 37px;
+        line-height: 44px;
+        font-weight: 700;
+        margin: 54px auto 20px auto
+    }
+    &-title::before{
+        @include insert('img/User.png',$top:6px,$left:-9px);
+        margin-right: 10px;
+  
+    }
+    &-field{
+        border: none;
+        display: flex;
+        height: 450px;
+        flex-flow: column wrap;
+        position: relative;
+        right: 25px;
+    }
+    div{
+        margin: 20px;
+        display: flex;
+        flex-flow: column
+    }
+    label{
+        padding-bottom: 20px;
+        font-weight: 700;
+        line-height: 18px
+    }
+    input,select{
+        padding: 10px;
+        border:2px solid #E9EDF3;
+        border-radius: 6px;
+        width: 603px;
+        height: 44px;
+    }
+
+}
+table{
+   .members::after{
+        content: '3';
+        font-size: 0.9rem;
+        padding: 5px 10px;
+        color: #ffffff;
+        border-radius: 60%;
+        background: linear-gradient(135deg, #3FABFF 0%, #006BFF 100%);
+
+        position: relative;
+        left: 11px;
+
+   } 
+   .admin::after{
+       content: 'Admin';
+       font-weight: 700;
+        font-size: 11px;
+        padding: 5px 10px;
+        color: #ffffff;
+        border-radius: 12px;
+        background: linear-gradient(135deg, #3FABFF 0%, #006BFF 100%);
+
+        position: relative;
+        left: 11px;
+
+   }
+   .name{
+       max-width: 160px;
+       
+       padding-right: 5px;
+   }
+   .position{
+       padding-left: 0px;
+   }
+   .country{
+       padding: 10px 120px;
+   }
+   .country::before{
+         @include insert('img/usa.png',$top:6px,$left:-9px);
+        margin-right: 10px;
+   }
+   .status::before{
+        @include insert('img/group.png',$top:6px,$left:-9px);
+        margin-right: 10px;
+   }
+   .delete::before{
+        @include insert('img/f-delete.png',$top:6px,$left:-9px);
+        margin-right: 10px;
+   }
+   
+}
+.btn{
+    &-add{
+        height: 39px;
+        width: 92px;
+        border:0;
+        border-radius: 10%;
+        background: #6ED74D;
+        color: #ffffff;
+        text-align: center;
+
+        position: relative;
+        left: 529px;
+        top:20px;
+        span{
+            font-weight: bold;
+            position: relative;
+            bottom: 10px;
+        }
+
+    }
+    &-add::before{
+        content: '+';
+        font-size: 40px;
+        position:relative;
+        right: 10px;
+    }
+    &-save{
+        height: 39px;
+        width: 92px;
+        border:0;
+        border-radius: 10%;
+        background: #3FABFF;
+        color: #ffffff;
+        text-align: center;
+        
+        position: relative;
+        
+        left: 1146px;
+        top:-30px;
+    }
+}
+.footer{
+    height: 42px;
+    padding: 10px;
+    border-top: 1px solid #D8D8D8;
+    &-contact{
+        color: #1782FF
+    }
+    &-qst{
+        text-align: center;
+        color: #477BA1
+    }
+}

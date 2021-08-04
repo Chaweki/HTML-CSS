@@ -1,0 +1,44 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 14;
+}
+
+a{ 
+    text-decoration: none;
+    color:#000
+}
+table{
+    width: 100%;
+    position: relative;
+    bottom: 60px;    
+    .members{
+        padding-bottom: 25px;
+        font-size: 27px;
+        text-align: left
+    }
+    td{
+        padding: 30px
+    }
+    tr{
+        border-bottom: 1px solid #d8d8d8;
+        font-weight: bold
+    }
+    tbody tr:last-child{
+        border: none
+    }
+    .position,.country{
+        color: #477BA1;
+        font-weight: normal;
+
+    }
+
+   
+}
+
+

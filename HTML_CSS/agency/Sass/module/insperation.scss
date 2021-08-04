@@ -1,0 +1,62 @@
+@import "btn.scss";
+.insperation{
+    margin: 100px ;
+    margin-right: 0;
+    display: flex;
+    flex-flow: wrap;
+    &-h2{
+        width: 100%;
+        font-size: 36px;
+        font-weight: 600;
+        padding: 20px 10px;
+    }
+    &-img{
+     height: 406px;
+     width: 293px;  
+     padding: 10px; 
+    }
+}
+.more{
+    margin: 100px 82px 20px 100px  ;
+    
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #D7D6D6 ;
+    padding-bottom: 50px;
+    
+    &-text{
+        height: 523px;
+        width: 662px;
+    }
+    &-h2{
+        @extend .insperation-h2;
+        padding-bottom: 50px
+    }
+
+    &-img{
+        height:425px ;
+        width: 165px;
+        padding: 5px;
+        
+    }
+    &-p{
+        font-size: 20px;
+        font-weight: 600;
+        height: 329px;
+        width: 662px;
+        padding-right: 10px;
+    }
+    &-btn{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        @extend %btn;
+        padding:  20px;
+        box-shadow: 0 4px 59px -14px rgba(171, 124, 0,.29);
+    }
+    &-pic{
+        
+        margin-top: 100px;
+    }
+
+}

@@ -1,0 +1,21 @@
+@import "btn.scss";
+.index-form{
+    width: 100%;
+    height: 174px;
+    background: #ffffff;
+    padding: 5px 51px;
+    &-input{
+        background: #FFF0CB;
+        height: 61px ;
+        border: none;
+        margin:10px;
+
+    }
+    &-input:nth-child(2){
+        width:828px  ;
+    }
+
+    &-btn{
+        @extend %btn;
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="grid">
+    <header class="head">
+        <ul class="head-list">
+            
+                <li> <a href="#" class='head-dashboard'>Dashboard</a></li>
+                <li> <a href="#" class='head-websites'>Websites</a></li>
+                <li> <a href="#" class='head-templates'>Templates</a></li>
+                <li> <a href="#" class='head-help'>Help</a></li>
+           
+        </ul>
+        
+       
+        <a href="#" class="head-profil"> Sandra T.</a>
+    </header>
+    <main>
+        <div class="path">
+            <a href="#" class="path-home">Home</a>
+            <a href="#" class="path-websites" >Websites</a>
+            <a href="#" class="path-new">New Team</a>
+        </div>
+        <h1 class="form-title">New Team</h1>
+        <form action="#" class="form">
+            <fieldset name="New Team" class="form-field">
+
+                <div>
+                <label for="name" class="form-label-name">Team name</label>
+                <input type="text" id="name" placeholder="John Do" class="form-input-name">
+                </div>
+                <div>
+                    <label for="company" class="form-label-company">Company Name</label>
+                    <input type="text" id="company" placeholder="Corp" class="form-input-company">
+                </div>
+                <div>
+                    <label for="password" class="form-label-password">Password</label>
+                    <input type="password" id="password" class="form-input-password">
+                </div>
+                <div>
+                    <label for="email" class="form-label-email">Primary Email</label>
+                    <input type="email" id="email" placeholder="mail@team.cc" class="form-input-email">
+                </div>
+                <div>
+                    <label for="country" class="form-label-country">Country</label>
+                    <select name="Country" id="country" class="form-input-country">
+                        <option value="gr">Germany</option>
+                        <option value="usa">United States</option>
+                        <option value="Italy">Italy</option>
+                        <option value="dz">Algeria</option>
+                        <option value="uk">United-Kingdom</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="repeat" class="form-label-repeat">Repeat Password</label>
+                    <input type="password" id="repeat" class="form-input-repeat" >
+                </div>
+                <button type="submit" class="btn-add"> <span>Add</span> </button>
+            </fieldset>
+            <table>
+                <thead>
+                <tr>
+                <th colspan="5" class="members">Members</th>
+                </tr>
+            </thead>
+            <tbody>                
+                <tr>
+                    <td class="name">Adam Whitemans</td>
+                    <td class="position admin">CEO & Founder</td>
+                    <td class="country">Italy</td>
+                    <td >   </td>
+                    <td class="delete"><a href="">Remove</a> </td>
+
+                </tr>
+                <tr>
+                    <td class="name">Nell McCoy</td>
+                    <td class="position">Senior Marketing Manager</td>
+                    <td class="country">United States</td>
+                    <td class="status"> Make Admin  </td>
+                    <td class="delete"><a href="">Remove</a> </td>
+
+                </tr>
+                <tr>
+                    <td class="name">Ann Huff</td>
+                    <td class="position">CTO e Co-Founder</td>
+                    <td class="country">Germany</td>
+                    <td class="status"> Make Admin  </td>
+                    <td class="delete"><a href="">Remove</a> </td>
+
+                </tr>
+                
+            </tbody>
+
+
+
+                
+            </table>
+            <button type="submit" class="btn-save">Save</button>
+        </form>
+
+    </main>
+            <footer class="footer">
+                <p class="footer-qst">Have questions? <a href="#" class="footer-contact">Contact Us</a></p>
+            </footer>
+</div>
+</body>
+</html>

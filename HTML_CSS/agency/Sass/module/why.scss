@@ -1,0 +1,58 @@
+.why{
+    &-container{
+        margin: 74px 100px;
+    }
+    &-content{
+        display: flex;
+        
+    }
+    &-text{
+        width: 80%;
+    }
+    &-h2{
+       font-size: 36px;
+       font-weight: 600;
+       margin-bottom: 70px;
+
+    }
+
+   
+    &-h3{
+        font-size: 29px;
+        margin: 10px 0;
+        
+    }
+    &-paragraph{
+        font-size: 21px;
+        margin-bottom: 40px;
+    }
+
+    &-yellow{
+        background: #FFC839;
+        height: 431px ;
+        width: 74px;
+        position: relative;
+        top:60px
+
+        
+    }
+
+}
+.why-card{
+    &-1::before{
+        content: url(img/group.png);
+        float: left;
+        margin-right: 20px
+
+    }
+    &-2::before{
+        content: url(img/chat-group.png);
+        float: left;
+        margin-right: 20px
+    }
+    &-3::before{
+        content: url(img/chat.png);
+        float: left;
+        margin-right: 20px
+    }    
+}
